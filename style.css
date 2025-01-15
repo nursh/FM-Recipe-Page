@@ -32,3 +32,22 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  min-height: 100svh;
+  background-color: var(--clr-stone-100);
+  line-height: 1;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+main {
+  max-width: 800px;
+  background-color: var(--clr-white);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
