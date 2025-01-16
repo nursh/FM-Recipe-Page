@@ -36,18 +36,74 @@
 body {
   min-height: 100svh;
   background-color: var(--clr-stone-100);
-  line-height: 1;
+  line-height: 1.5;
   display: grid;
   justify-items: center;
   align-content: center;
+  padding: 2rem;
+
+  font-family: "Outfit", sans-serif;
+  color: var(--clr-stone-600);
+}
+
+.recipe {
+  max-width: 735px;
+  background-color: var(--clr-white);
+
 }
 
 main {
-  max-width: 800px;
-  background-color: var(--clr-white);
+  padding: var(--spacing-500) var(--spacing-400);
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: var(--text-1-mobile);
+  color: var(--clr-stone-900);
+}
+
+h2 {
+  color: var(--clr-brown-800);
+  font-size: var(--text-2);
+}
+
+.recipe-preparation {
+  padding: var(--spacing-300);
+  background-color: var(--clr-rose-50);
+}
+
+.recipe-preparation h3 {
+  margin-top: 0;
+  margin-bottom: var(--spacing-200);
+  color: var(--clr-rose-800);
+  font-weight: 600;
+  font-size: var(--text-3);
+}
+
+ul,
+ol   {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+li span {
+  font-size: var(--text-4);
+  font-weight: 700;
+  color: var(--clr-stone-600);
+}
+
+li::marker {
+  color: var(--clr-rose-800);
 }
