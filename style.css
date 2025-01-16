@@ -92,10 +92,16 @@ h2 {
 }
 
 ul,
-ol   {
-  margin: 0;
-  padding: 0;
-  list-style-position: inside;
+ol {
+  padding-left: var(--spacing-300);
+}
+
+li {
+  padding-left: var(--spacing-200);
+}
+
+li:not(:last-of-type) {
+  padding-bottom: var(--spacing-100);
 }
 
 li span {
@@ -106,4 +112,25 @@ li span {
 
 li::marker {
   color: var(--clr-rose-800);
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+tr:not(:last-of-type) {
+  border-bottom: 1px solid var(--clr-stone-150);
+}
+
+td {
+  padding-top: var(--spacing-150);
+}
+
+td + td {
+  font-size: var(--text-4);
+  font-weight: 700;
+  color: var(--clr-brown-800);
+  padding-bottom: var(--spacing-150);
 }
