@@ -153,3 +153,20 @@ hr {
   margin-bottom: var(--spacing-400);
   color: var(--clr-stone-150);
 }
+
+@media (min-width: 38.6em) {
+  
+  main {
+    padding: 0;
+  }
+
+  .recipe {
+    padding: var(--spacing-500);
+    border-radius: var(--spacing-300);
+  }
+
+  img {
+    margin-bottom: var(--spacing-500);
+    border-radius: var(--spacing-300);
+  }
+}
