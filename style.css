@@ -78,6 +78,7 @@ h2 {
   color: var(--clr-brown-800);
   font-size: var(--text-2);
   font-weight: 400;
+  margin-bottom: var(--spacing-300);
 }
 
 .recipe-preparation {
@@ -96,10 +97,6 @@ h2 {
 
 section {
   margin-bottom: var(--spacing-400);
-}
-
-section h2 {
-  margin-bottom: var(--spacing-300);
 }
 
 ul,
@@ -170,5 +167,15 @@ hr {
   img {
     margin-bottom: var(--spacing-500);
     border-radius: var(--spacing-300);
+  }
+  
+  h1 {
+    font-weight: 400;
+    line-height: 1;
+    font-size: var(--text-1-desktop);
+  }
+
+  h2 {
+    line-height: 1;
   }
 }
